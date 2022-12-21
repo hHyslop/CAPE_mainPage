@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.foot{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(250, 100, 30);
+}
+
+.foot-layer-1{
+    width: 80%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    /* border-style: solid;
+    border-width: 5px;
+    border-color: black; */
+}
+
+.foot-layer-11{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border-style: solid;
+    border-width: 5px;
+    border-color: red; */
+}
+
+.foot-layer-111{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border-style: solid;
+    border-width: 5px;
+    border-color: yellow; */
+}
+
+.foot-layer-1111{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    color: white;
+    /* border-style: solid;
+    border-width: 5px;
+    border-color: green; */
+}
+
+.foot-layer-1112{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    /* border-style: solid;
+    border-width: 5px;
+    border-color: green; */
+}
+
+.foot-layer-112{
+    width: 100%;
+    height: 40%;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    /* border-style: solid;
+    border-width: 5px;
+    border-color: yellow; */
+}
+
+.foot-layer-12{
+    width: 10%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* border-style: solid;
+    border-width: 5px;
+    border-color: red; */
+}
+
+.foot-layer-121{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    color: white;
+    /* border-style: solid;
+    border-width: 5px;
+    border-color: yellow; */
+}
+
+.foot-layer-122{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border-style: solid;
+    border-width: 5px;
+    border-color: yellow; */
+}
+
+.foot-layer-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+    /* border-style: solid;
+    border-width: 5px;
+    border-color: yellow; */
+}
+
+.logo{
+    width: 42px;
+    height: 35px;
+}
